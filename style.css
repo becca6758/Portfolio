@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #64b1f8;
+  color: #fff;
+  flex-wrap: auto;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  justify-content: space-between;
+}
+
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.4em;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  color: rgb(214, 213, 189);
+}
+
+#background {
+  height: 300px;
+  margin-bottom: 25px;
+  background-position: center;
+  background-image: url("https://cdn.webdesigntips.blog/wp-content/uploads/2020/12/How-to-Create-a-Mouse-Icon.png");
+}
+
+.heading {
+  flex: 1 1 0;
+  left: 50px;
+  font-size: 2em;
+}
+
+.stuff {
+  flex: 3 3 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 500px;
+  font-size: 1.2em;
+}
+
+.project {
+  border-style: double;
+  border-color: rgb(94, 157, 216);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .stuff {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  
+  .project {
+    max-width: 80%;
+  } 
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  nav ul {
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 5px 10px;
+  }
+}
