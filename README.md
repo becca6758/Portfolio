@@ -10,12 +10,12 @@ Use (https://becca6758.github.io/Portfolio/) to access Portfolio.
 
 Full screen size
 
-![fullscreen01](./Portfolio/full-size-01.png)
+![fullscreen01](/Portfolio/full-size-01.png)
 
-![fullscreen02](./Portfolio/full-size-02.png)
+![fullscreen02](/Portfolio/full-size-02.png)
 
 Mobile screen size
 
-![mobile01](./Portfolio/mobile-size-01.png)
+![mobile01](/Portfolio/mobile-size-01.png)
 
-![mobile02](./Portfolio/mobile-size-02.png)
+![mobile02](/Portfolio/mobile-size-02.png)
