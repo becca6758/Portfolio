@@ -1,117 +1,26 @@
-*{
-  font-family: Arial, Helvetica, sans-serif;
-}
-main {
-  display: flex;
-  height: 100vh;
+ul {
+  list-style-type: none;
 }
 
-.jumbotron {
-  background-color: rgb(145, 169, 236);
-  color: white;
-  padding: 200px;
-  margin-bottom: 20px;
+li {
+  display: inline;
 }
 
-h1 {
-  font-size: 3em;
+.jumbo-1 {
+  background-image: url("../assets/quiz-hub.png");
+  background-size: cover;
 }
 
-nav ul {
-  align-content: center;
-  justify-content: space-between;
+.jumbo-2 {
+  background-image: url("../assets/note-taker.png");
+  background-size: cover;
 }
 
-nav a {
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1.4em;
-  padding: 5px 10px;
+.jumbo-3{
+  background-image: url("../assets/ecommerce\ pic.png");
+  background-size: cover;
 }
 
-nav a:hover {
-  color: rgb(214, 213, 189);
-}
-
-#profile {
-  height: 100px;
-  background-image: url("https://cdn.webdesigntips.blog/wp-content/uploads/2020/12/How-to-Create-a-Mouse-Icon.png");
-}
-
-main{
-  align-content: center;
-}
-
-.heading {
-  left: 50px;
-  font-size: 2em;
-}
-
-
-.band {
-  width: 90%;
-  max-width: 1240px;
-  margin: 0 auto;
-   
-  display: grid;
-   
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  grid-gap: 20px;
-}
-
-.card {
-  background: white;
-  text-decoration: none;
-  color: #444;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.work {
-  width: 100%;
-}
-
-.contact {
-  font-size: 1.2em;
-}
-
-.project {
-  border-style: double;
-  border-color: rgb(94, 157, 216);
-}
-
-
-@media screen and (max-width: 500px) {
-  .container{
-    flex-direction: column;
-    align-items: center;
-  }
-  .stuff {
-    margin-left: 0px;
-    padding: 10px;
-  }
-  
-  .project {
-    max-width: 80%;
-  } 
-
-  .band {
-    grid-template-columns: 1fr 1fr;
-  } 
-
-}
-
-
-@media screen and (min-width: 800px) {
-
-  main {
-    max-width: 1200px;
-  }
-  .band {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
 }
